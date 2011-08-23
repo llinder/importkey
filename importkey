@@ -1,0 +1,6 @@
+#!/bin/bash
+
+JAR=`find target/*.jar`
+
+java -jar $JAR "$@"
+
